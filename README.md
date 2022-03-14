@@ -1,2 +1,3 @@
-# ML
-SOT863102 Machine Learning for Social Sciences
+# Welcome to the course Machine Learning for Social Science (SOT863102)
+
+This repository contains slides and code.
