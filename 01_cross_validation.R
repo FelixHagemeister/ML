@@ -3,7 +3,7 @@
 # Felix Hagemeister
 # 2022
 
-# R Script 2: Types of Cross-Validation
+# R Script: Types of Cross-Validation
 
 
 # clear environment
