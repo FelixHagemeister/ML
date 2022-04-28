@@ -22,12 +22,13 @@ library(gamlr)
 
 # load data on tv shows from NBC
 # --------------------------------------------------
-shows <- read.csv("data/nbc_showdetails.csv", row.names=1) ## show details; ratings and engagement
+shows <- read.csv("data/nbc_showdetails.csv", row.names=1, stringsAsFactors = TRUE) ## show details; ratings and engagement
 
 # explore and prepare data
 # --------------------------------------------------
 
 # types of shows
+table(shows$Genre)
 plot(GRP ~ PE, data=shows, bg=c(4,2,3)[shows$Genre], pch=21, log="y")
 legend("bottomright", legend=levels(shows$Genre), fill=c(4,2,3), bty="n")
 
